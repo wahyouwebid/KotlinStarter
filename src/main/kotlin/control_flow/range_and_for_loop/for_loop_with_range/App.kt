@@ -1,0 +1,9 @@
+package control_flow.range_and_for_loop.for_loop_with_range
+
+fun main() {
+    val ranges = 1.rangeTo(5)
+
+    for (i in ranges){
+        println("value is $i!")
+    }
+}
