@@ -1,0 +1,14 @@
+package coroutines.coroutines_dispacher.dispatcher_io
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+
+fun main() = runBlocking {
+
+    launch(Dispatchers.IO) {
+        // TODO: Implement algorithm here
+    }
+
+    println("Dispatcher IO")
+}

@@ -16,8 +16,8 @@ class Animal(val name: String,
 
 // main function
 fun main() {
-    val dicodingCat = Animal("Dicoding Miaw", 4.2, 2, true)
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
-    dicodingCat.eat()
-    dicodingCat.sleep()
+    val cat = Animal("Meong", 4.2, 2, true)
+    println("Nama: ${cat.name}, Berat: ${cat.weight}, Umur: ${cat.age}, mamalia: ${cat.isMammal}")
+    cat.eat()
+    cat.sleep()
 }
